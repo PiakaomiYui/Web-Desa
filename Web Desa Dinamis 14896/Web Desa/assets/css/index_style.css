@@ -1,0 +1,156 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+html{
+  background-image: url("img/index_bg.jpg");
+  background-size: cover;
+  font-family: century gothic;
+}
+
+.header{
+  background: linear-gradient(to bottom right, rgba(166, 198, 183, 0.75), rgba(94, 68, 89, 0.75));
+  position: fixed;
+  width: 100%;
+  line-height: 75px;
+  z-index: 99;
+}
+
+.log{
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  width: 100px;
+  height: 100%;
+  text-align: center;
+  transition: 0.2s;
+  margin-left: -5px;
+}
+
+.log:hover{
+  background-color: white;
+  color: rgba(94, 68, 89, 0.75);
+  transition: 0.2s;
+}
+
+.main{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.greet{
+  margin-top: 15%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+.greet_des{
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.form_login{
+  display: block;
+  position: relative;
+  width: 40%;
+  height: 60%;
+  background-color: rgba(255, 255, 255, 0.75);
+  margin-left: 30%;
+  margin-top: 10%;
+}
+
+.logo{
+  width: 100px;
+  position: relative;
+  height: 100px;
+  background: linear-gradient(to bottom right, rgba(166, 198, 183, 0.75), rgba(94, 68, 89, 0.75));
+  border-radius: 50px;
+  top: -50px;
+  left: 40%;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.main_form_login{
+  margin-left: 15%;
+}
+
+.box_form{
+  border: none;
+  margin-top: 20px;
+  height: 40px;
+  text-indent: 10px;
+}
+
+.button_login{
+  margin-top: 20px;
+  margin-left: 10%;
+  border-width: thin;
+  border-style: solid;
+  border-color: rgba(94, 68, 89, 0.75);
+  background: linear-gradient(to bottom right, rgba(166, 198, 183, 0.75), rgba(94, 68, 89, 0.75));
+  color: white;
+  width: 125px;
+  height: 50px;
+}
+
+.button_login:hover{
+  background: white;
+  color: rgb(94, 68, 89);
+}
+
+.forgot{
+  text-decoration: none;
+  color: rgb(94, 68, 89);
+  margin-left: 20px;
+}
+
+.form_logup{
+  display: block;
+  position: relative;
+  width: 40%;
+  height: 70%;
+  background-color: rgba(255, 255, 255, 0.75);
+  margin-left: 30%;
+  margin-top: 10%;
+}
+
+.main_form_logup{
+  margin-left: 15%;
+}
+
+.box_form{
+  border: none;
+  margin-top: 20px;
+  height: 40px;
+  text-indent: 10px;
+}
+
+.button_logup{
+  margin-top: 20px;
+  margin-left: 10%;
+  border-width: thin;
+  border-style: solid;
+  border-color: rgba(94, 68, 89, 0.75);
+  background: linear-gradient(to bottom right, rgba(166, 198, 183, 0.75), rgba(94, 68, 89, 0.75));
+  color: white;
+  width: 125px;
+  height: 50px;
+}
+
+.button_logup:hover{
+  background: white;
+  color: rgba(94, 68, 89, 0.75);
+}
